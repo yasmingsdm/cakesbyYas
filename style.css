@@ -1,0 +1,34 @@
+body{
+    font-family: "Comic Sans", "Comic Sans MS", serif;
+    color: fuchsia;
+    font-size:large;
+    background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-122.jpg?w=2000");
+}   
+
+h1{
+    font-weight: bold;
+    color:blueviolet;
+    text-align: center;
+    
+}
+
+.order{
+    border:2px dotted fuchsia;
+    padding: 20px;
+    margin: 20px;
+}
+
+.small{
+    font-size:small;
+    display:block;
+    line-height: 5px;
+}
+
+img{
+    width:400px;
+    border-radius: 20%;
+}
+button{
+    background-color: pink;
+    border-radius: 10px;
+}
