@@ -9,37 +9,37 @@
         <header>
             <h1>Cakes by Yas</h1>
         </header>
-
-        <section class="order">
-            <p> Choose your cake and order it here:</p> 
-            <p class="small">Each cake costs 200kr/kg</p>
-            <form id="form">
-                <br>
-                <label for="name">What's you name?</label>
-                <input id="name" name="name" type="text" required>
-                <br>
-                <p>Which cake would you like?</p>
-                <label for="chocolate">Chocolate Cake</label>
-                <input type="radio" name="chocolate" id="chocolate" class="radio">
-                <label for="redvelvet">Red Velvet</label>
-                <input type="radio" name="redvelvet" id="redvelvet" class="radio">
-                <label for="strawberry">Strawberry Cake</label>
-                <input type="radio" name="strawberry" id="strawberry" class="radio">
-                <label for="carrot">Carrot Cake</label>
-                <input type="radio" name="carrot" id="carrot" class="radio">
-                <br><br>
-                <label for="kg">How many Kg would you like?</label>
-                <input id="kg" type="number" min="1" max="10" name="kg" required>
-                <p class="small">If it's a party you can count 100g/person</p>
-                <br>
-                <button type="submit" id="order" onclick="order()">ORDER HERE</button>
-            </form>
-            <img src="https://img.freepik.com/vetores-gratis/um-modelo-de-cartao-de-aniversario_1308-24309.jpg" alt="Fake Cake" id="cake-photo">
-        </section> 
-        <section class="later">
-            <img id="CakePic" src="https://img.freepik.com/vetores-gratis/um-modelo-de-cartao-de-aniversario_1308-24309.jpg ">
-            <h3></h3>
-        </section>   
+        <div class="divide">
+            <section class="order">
+                <p> Choose your cake and order it here:</p> 
+                <p class="small">Each cake costs 200kr/kg</p>
+                <form id="form">
+                    <br>
+                    <label for="name">What's you name?</label>
+                    <input id="name" name="name" type="text" required>
+                    <br>
+                    <p>Which cake would you like?</p>
+                    <label for="chocolate">Chocolate Cake</label>
+                    <input type="radio" name="chocolate" id="chocolate" class="radio">
+                    <label for="redvelvet">Red Velvet</label>
+                    <input type="radio" name="redvelvet" id="redvelvet" class="radio">
+                    <label for="strawberry">Strawberry Cake</label>
+                    <input type="radio" name="strawberry" id="strawberry" class="radio">
+                    <label for="carrot">Carrot Cake</label>
+                    <input type="radio" name="carrot" id="carrot" class="radio">
+                    <br><br>
+                    <label for="kg">How many Kg would you like?</label>
+                    <input id="kg" type="number" min="1" max="10" name="kg" required>
+                    <p class="small">If it's a party you can count 100g/person</p>
+                    <br>
+                    <button type="submit" id="order" onclick="order()">ORDER HERE</button>
+                </form>
+            </section> 
+            <section class="later">
+                <img id="CakePic" src="https://img.freepik.com/vetores-gratis/um-modelo-de-cartao-de-aniversario_1308-24309.jpg ">
+                <h3></h3>
+            </section>   
+        </div>
     </body>
 
 </html>
