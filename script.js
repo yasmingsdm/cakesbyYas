@@ -26,9 +26,8 @@ const hour = (kg)=>{
     }
 }
     //Print on the screen:
-    localStorage.style.display = 'block'
 
-    let Text = ('Great ' + nome + 'your cake will be ready in ' + hour + 'and it will cost '+price +'SEK.')
+    let Text = ('Great ' + nome + 'your cake will be ready in ' + hour + ' and it will cost '+price +' SEK.')
     document.write ('<h3>' + Text + '</h3>')
 }
 

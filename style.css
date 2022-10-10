@@ -18,7 +18,6 @@ h1{
     border:2px dotted fuchsia;
     padding: 20px;
     margin: 20px;
-    column-count: 2;
 }
 
 .small{
@@ -37,6 +36,12 @@ button{
     border-radius: 10px;
 }
 
-later{
-    display: none
+.divide{
+    column-count: 2;
+}
+
+h3{
+    border: 2px dotted fuchsia;
+    padding: 25px;
+
 }
