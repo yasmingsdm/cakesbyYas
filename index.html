@@ -3,7 +3,6 @@
     <head>
         <title>Cakes by Yas</title>
         <link rel="stylesheet" href="./style.css">
-        <script src="./script.js"></script>
     </head>
     <body>
         <header>
@@ -20,26 +19,27 @@
                     <br>
                     <p>Which cake would you like?</p>
                     <label for="chocolate">Chocolate Cake</label>
-                    <input type="radio" name="chocolate" id="chocolate" class="radio">
+                    <input type="radio" name="cake" id="chocolate" class="radio">
                     <label for="redvelvet">Red Velvet</label>
-                    <input type="radio" name="redvelvet" id="redvelvet" class="radio">
+                    <input type="radio" name="cake" id="redvelvet" class="radio">
                     <label for="strawberry">Strawberry Cake</label>
-                    <input type="radio" name="strawberry" id="strawberry" class="radio">
+                    <input type="radio" name="cake" id="strawberry" class="radio">
                     <label for="carrot">Carrot Cake</label>
-                    <input type="radio" name="carrot" id="carrot" class="radio">
+                    <input type="radio" name="cake" id="carrot" class="radio">
                     <br><br>
                     <label for="kg">How many Kg would you like?</label>
                     <input id="kg" type="number" min="1" max="10" name="kg" required>
                     <p class="small">If it's a party you can count 100g/person</p>
                     <br>
-                    <button type="submit" id="order" onclick="order()">ORDER HERE</button>
+                    <button type="submit" id="order">ORDER HERE</button>
                 </form>
             </section> 
             <section class="later">
                 <img id="CakePic" src="https://img.freepik.com/vetores-gratis/um-modelo-de-cartao-de-aniversario_1308-24309.jpg ">
-                <h3></h3>
+                <h3 id="h3"></h3>
             </section>   
         </div>
+        <script  type="text/javascript" src="./script.js"></script>
     </body>
 
 </html>
