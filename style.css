@@ -27,10 +27,11 @@ h1{
 }
 
 img{
-    width:400px;
+    width:300px;
     border-radius: 20%;
-
+    margin-left:80px
 }
+
 button{
     background-color: pink;
     border-radius: 10px;
@@ -43,5 +44,13 @@ button{
 h3{
     border: 2px dotted fuchsia;
     padding: 25px;
+}
 
+@media (max-width: 1024px){
+    img{
+        display: none
+    }
+    .divide{
+        column-count: 1;
+    }
 }
