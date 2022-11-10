@@ -1,6 +1,6 @@
 ## Cakes by Yas
 
-This project goal's was to create a webpage where you can order your cake, see the price and see when it is going to be ready 
+This project goal's was to create a webpage where you can order your cake, see the price and see when it is going to be ready. 
 
 I used HTML, CSS and JavaScript.
 
