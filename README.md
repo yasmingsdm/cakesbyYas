@@ -1,8 +1,17 @@
-# cakes by Yas
+## Cakes by Yas
 
-Project to practice HTML, CSS and JavaScript.
+This project goal's was to create a webpage where you can order your cake, see the price and see when it is going to be ready 
 
-In this project I create a webpage where you can order a cake and see the price and the time it will take to be ready.
+I used HTML, CSS and JavaScript.
 
-You can see the project here:
-https://yasmingsdm.github.io/cakesbyYas/
+#### What I've practiced/learned:
+- Text input (HTML);
+- Radio input (HTML);
+- Number input (HTML);
+- Responsive design (CSS);
+- Submit form (JavaScript);
+- If/else (JavaScript).
+
+You can check the project ready [here](https://yasmingsdm.github.io/cakesbyYas/)
+
+
